@@ -1,4 +1,4 @@
-package C3_DecoratorPattern;
+package C3_DecoratorPattern.StarBuzzCafe;
 
 public abstract class Beverage {
 
