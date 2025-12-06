@@ -1,4 +1,4 @@
-package C3_DecoratorPattern.StarBuzzCafe;
+package C3_DecoratorPattern.StarBuzzCafe.Beverages;
 
 public class Soy extends CondimentDecorator{
 

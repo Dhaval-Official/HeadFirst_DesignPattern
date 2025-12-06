@@ -1,5 +1,7 @@
 package C3_DecoratorPattern.StarBuzzCafe;
 
+import C3_DecoratorPattern.StarBuzzCafe.Beverages.*;
+
 public class StarBuzzCoffee {
 
     public static void main(String[] arge) {
