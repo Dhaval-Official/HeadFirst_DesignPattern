@@ -16,5 +16,4 @@ public class SteamMilk extends CondimentDecorator{
         return beverage.cost() + .10;
     }
 
-
 }
