@@ -1,4 +1,4 @@
-package C4_Factory_Pattern.P1_Factory_Method;
+package C4_Factory_Pattern.P1_FactoryMethod.Pizzas;
 
 public class NYStyleCheesePizza extends Pizza {
     public NYStyleCheesePizza() {

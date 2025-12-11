@@ -1,4 +1,6 @@
-package C4_Factory_Pattern.P1_Factory_Method;
+package C4_Factory_Pattern.Corrpt;
+
+import C4_Factory_Pattern.Corrpt.Pizzas.Pizza;
 
 public abstract class PizzaStore {
 

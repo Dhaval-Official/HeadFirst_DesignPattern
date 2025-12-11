@@ -1,4 +1,7 @@
-package C4_Factory_Pattern.P1_Factory_Method;
+package C4_Factory_Pattern.P1_FactoryMethod.Stores;
+
+import C4_Factory_Pattern.P1_FactoryMethod.Pizzas.NYStyleCheesePizza;
+import C4_Factory_Pattern.P1_FactoryMethod.Pizzas.Pizza;
 
 public class NYPizzaStore extends PizzaStore {
     Pizza createPizza(String item) {

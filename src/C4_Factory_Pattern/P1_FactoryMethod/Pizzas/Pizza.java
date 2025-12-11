@@ -1,4 +1,4 @@
-package C4_Factory_Pattern.P1_Factory_Method;
+package C4_Factory_Pattern.P1_FactoryMethod.Pizzas;
 
 import java.util.ArrayList;
 
@@ -9,7 +9,7 @@ public abstract class Pizza {
     String sauce;
     ArrayList toppings = new ArrayList<>();
 
-    void prepare() {
+    public void prepare() {
         System.out.println("Praparing "+ name);
         System.out.println("Tossing dough....");
         System.out.println("Adding sauce....");
@@ -19,17 +19,15 @@ public abstract class Pizza {
         }
     }
 
-    void bake() {
+    public void bake() {
         System.out.println("Bake for 25 mins at 35");
     }
 
-    void cut() {
+    public void cut() {
         System.out.println("Cutting in diagonal slices");
     }
 
-    void box() {
-        System.out.println("Place Pizza in a box");
-    }
+    public void box() { System.out.println("Place Pizza in a box"); }
 
     public String getName() {
         return name;
