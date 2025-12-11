@@ -1,4 +1,4 @@
-package C4_Factory_Pattern.P1_FactoryMethod.Pizzas;
+package C4_Factory_Pattern.P1_FactoryMethods.Pizza;
 
 import java.util.ArrayList;
 
@@ -27,7 +27,9 @@ public abstract class Pizza {
         System.out.println("Cutting in diagonal slices");
     }
 
-    public void box() { System.out.println("Place Pizza in a box"); }
+    public void box() {
+        System.out.println("Place Pizza in a box");
+    }
 
     public String getName() {
         return name;
