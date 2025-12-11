@@ -1,6 +1,6 @@
 package C4_Factory_Pattern.P1_Factory_Method;
 
-public class ChicagoStylePizza extends Pizza{
+public class ChicagoStylePizza extends Pizza {
 
     public ChicagoStylePizza() {
         name = "Chicago Style Sauce and Cheese Pizza";

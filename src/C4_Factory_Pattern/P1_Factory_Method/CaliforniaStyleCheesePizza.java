@@ -1,6 +1,6 @@
 package C4_Factory_Pattern.P1_Factory_Method;
 
-public class CaliforniaStyleCheesePizza extends Pizza{
+public class CaliforniaStyleCheesePizza extends Pizza {
     public CaliforniaStyleCheesePizza() {
         name = "California Style Deep Dish Cheese Pizza";
         dough = "Extra Thick Crust Dough";
