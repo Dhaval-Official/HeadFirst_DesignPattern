@@ -1,4 +1,4 @@
-package C7_Adapter_Patterns.P1_ObjectAdapter;
+package C7_AdapterFacade_Patterns.P1_AdapterPattern;
 
 public class MallardDuck implements Duck {
     public void quack() {

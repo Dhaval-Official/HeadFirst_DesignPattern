@@ -1,4 +1,4 @@
-package C7_Adapter_Patterns.P2_FacadePattern;
+package C7_AdapterFacade_Patterns.P2_FacadePattern;
 
 public class Amplifier {
     String description;
