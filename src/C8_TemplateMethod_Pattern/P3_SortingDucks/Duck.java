@@ -12,6 +12,7 @@ public class Duck implements Comparable {
         return name + " weighs " + weight;
     }
 
+    //here is the real Stuff
     public int compareTo(Object object) {
         Duck otherDuck = (Duck)object;
 
